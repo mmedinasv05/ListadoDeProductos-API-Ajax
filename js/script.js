@@ -17,9 +17,9 @@ $(document).ready(function(){
                     divlistaProduct.append(`
                         <div class='card-product'>
                             <img src=${product.image}>
-                            <p><strong>Nombre del producto: </strong> ${product.name}</p>
-                            <p><strong>Precio $: </strong> ${product.price}</p>
-                            <p><strong>Descripcion: </strong> ${product.description}</p>
+                            <p><strong>PRODUCTO: </strong> ${product.name}</p>
+                            <p><strong>PRECIO: </strong> $${product.price}</p>
+                            <p><strong>DESCRIPCION: </strong> ${product.description}</p>
                         </div>
                     `);
                 }
